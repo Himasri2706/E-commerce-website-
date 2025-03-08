@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-store",
+  "version": "1.0.0",
+  "description": "Basic e-commerce store application with Express.js backend and MongoDB",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "dev": "concurrently \"npm run server\" \"cd frontend && live-server\""
+  },
+  "keywords": [
+    "ecommerce",
+    "express",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Code Alpha Submission",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
